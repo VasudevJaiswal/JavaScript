@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JS DEV VASU</title>
+  <meta name="description" content="JavaScript Dev Vasudev Jaiswal  ">
+  <meta name="keywords" content="JavaScript Lessons, JavaScript Tutorial , JavaScript, JavaScript in html , JavaScript Vasudev Jaiswal Blog, Vasudev Jaiswal Blog">
+  <meta name="Author" content="Vasudev Jaiswal">
+
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Candal|Alegreya+Sans">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/imagehover.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title> JS Lesson </title>
+    <style>
+        body {
+            background-color: bisque;
+            font-family: sans-serif;
+        }
+        .contact{
+            background-color: white;
+           
+
+        }
+        
+        h1 {
+            color: red;
+            display: inline-block;
+            text-decoration: underline;
+        }
+        
+        
+        p {
+            color: green;
+            display: inline-block;
+            font-size: larger;
+        }
+        
+        .headingstags {
+            border: 5px solid rgb(0, 0, 0);
+        color: darkgoldenrod;
+            display: inline-block;
+        }
+        
+        .headingstags h1 {
+            color: black;
+            text-decoration: none;
+            font-size: larger;
+        }
+        p{
+            color: blue;
+        }
+    
+        .Output{
+        color:darkmagenta;
+    }
+    td{
+        color:black;
+    }
+    </style>
+</head>
+<body>
+     <!--Navigation bar-->
+     <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">JS<span>&nbspDev</span><span>&nbspVasu</span></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+
+
+
+                    <li><a href="Lesson.html">Courses</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#" data-target="#login" data-toggle="modal">Sign in</a></li>
+                    <li class="btn-trial"><a href="Lesson.html">Free Trail</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--/ Navigation bar--> <br> 
+    
+    <br> 
+    <h1> JavaScript Statement </h1>
+  
+</div>
+<hr>
+<div class="vasu-example">
+<h3>Example</h3>
+<div class="Output">
+let x, y, z;&nbsp;&nbsp;&nbsp; // Statement 1<br>
+x = 5;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // Statement 2<br>
+y = 6;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // Statement 3<br>
+z = x + y;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //  Statement 4<br>
+</div>
+<a class="vasu-btn vasu-margin-bottom" href="tryit.asp?filename=tryjs_statements" target="_blank">Try it Yourself &raquo;</a>
+</div>
+
+<hr>
+<h2>JavaScript Programs</h2>
+<p>A <strong>computer program</strong> is a list of &quot;instructions&quot; to be 
+&quot;executed&quot; by a computer.</p>
+<p>In a programming language, these programming instructions are called <strong>statements</strong>.</p>
+<p>A <strong>JavaScript program</strong> is a list of programming <strong>statements</strong>.</p>
+
+<div class="vasu-panel vasu-note">
+<p>In HTML, JavaScript programs are executed by the web browser.</p>
+</div>
+
+<hr>
+
+<h2>JavaScript Statements</h2>
+<p>JavaScript statements are composed of:</p>
+<p>Values, Operators, Expressions,&nbsp;Keywords, 
+and Comments.</p>
+<p>This statement tells the browser to write &quot;Hello Dolly.&quot; 
+inside an HTML element with id=&quot;demo&quot;:</p>
+<div class="vasu-example">
+<h3>Example</h3>
+<div class="Output">
+document.getElementById(&quot;demo&quot;).innerHTML = &quot;Hello Dolly.&quot;;</div>
+<a class="vasu-btn vasu-margin-bottom" href="tryit.asp?filename=tryjs_statement" target="_blank">Try it Yourself &raquo;</a>
+</div>
+
+<p>Most JavaScript 
+programs contain many JavaScript statements.</p>
+<p>The statements are executed, one by one, in the 
+same order as they are written.</p>
+
+<div class="vasu-panel vasu-note">
+<p>JavaScript programs (and JavaScript statements) are often called JavaScript code.
+</p>
+</div>
+
+<hr>
+<h2>Semicolons ;</h2>
+<p>Semicolons separate JavaScript statements.</p>
+<p>Add a semicolon at the end of each executable statement: </p>
+<div class="vasu-example">
+<h3>Examples</h3>
+<div class="Output">
+let a, b, c;&nbsp; // Declare 3 variables<br>
+a = 5;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // Assign the value 5 to a<br>
+b = 6;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // Assign the 
+  value 6 to b<br>
+c = a + b;&nbsp;&nbsp;&nbsp; // Assign the sum of a and b to c<br>
+</div>
+<a class="vasu-btn vasu-margin-bottom" href="tryit.asp?filename=tryjs_statements_semicolon1" target="_blank">Try it Yourself &raquo;</a>
+</div>
+<p>
+When separated by semicolons, multiple statements on one line are allowed:</p>
+<div class="vasu-example">
+<div class="Output">
+a = 5; b = 6; c = a + b;
+</div>
+<a class="vasu-btn vasu-margin-bottom" href="tryit.asp?filename=tryjs_statements_semicolon2" target="_blank">Try it Yourself &raquo;</a>
+</div>
+
+<div class="vasu-panel vasu-note">
+<p>On the web, you might see examples without semicolons. <br>
+Ending statements with semicolon is not required, but highly recommended.</p>
+</div>
+
+<hr>
+<div id="midcontentadcontainer" style="overflow:auto;text-align:center">
+<!-- MidContent -->
+<!-- <p class="adtext">Advertisement</p> -->
+
+  <!--<pre>mid_content, all: [300,250][336,280][728,90][970,250][970,90][320,50][468,60]</pre>-->
+  <div id="snhb-mid_content-0"></div>
+
+</div>
+<hr>
+<h2>JavaScript White Space</h2>
+<p>JavaScript ignores multiple spaces. You can add white space to your script to make it more readable.</p>
+<p>The following lines are equivalent:</p>
+
+<div class="vasu-example">
+<div class="Output">
+let person = &quot;Hege&quot;;<br>
+let person=&quot;Hege&quot;;
+</div>
+</div>
+<p>A good practice is to put spaces around operators ( = + - * / ):</p>
+
+<div class="vasu-example">
+<div class="Output">
+let x = y + z;</div>
+</div>
+<hr>
+
+<h2>JavaScript Line Length and Line Breaks</h2>
+<p>For best readability, programmers often like to avoid code lines longer than 80 
+characters.</p>
+<p>If a JavaScript statement does not fit on one line, the best place to break 
+it is after an operator:</p>
+<div class="vasu-example">
+<h3>Example</h3>
+<div class="Output">
+document.getElementById(&quot;demo&quot;).innerHTML =<br>&quot;Hello Dolly!&quot;;</div>
+<a class="vasu-btn vasu-margin-bottom" href="tryit.asp?filename=tryjs_statements_linebreak" target="_blank">Try it Yourself &raquo;</a>
+</div>
+<hr>
+
+<h2>JavaScript Code Blocks</h2>
+<p>JavaScript statements can be grouped together in code blocks, inside curly 
+brackets {...}.</p>
+<p>The purpose of code blocks is to define statements to be executed together.</p>
+<p>One place you will find statements grouped together in blocks, is in 
+JavaScript functions:</p>
+
+<div class="vasu-example">
+<h3>Example</h3>
+<div class="Output">
+ function myFunction() {<br>
+&nbsp;&nbsp;document.getElementById(&quot;demo1&quot;).innerHTML = &quot;Hello Dolly!&quot;;<br>
+&nbsp;&nbsp;document.getElementById(&quot;demo2&quot;).innerHTML = &quot;How are you?&quot;;<br>
+}<br>
+</div>
+<a class="vasu-btn vasu-margin-bottom" href="tryit.asp?filename=tryjs_statements_blocks" target="_blank">Try it Yourself &raquo;</a>
+</div>
+
+<div class="vasu-panel vasu-note">
+<p>In this tutorial we use 2 spaces of indentation for code blocks.<br>
+You will learn more about functions later in this tutorial.</p>
+</div>
+
+<hr>
+<h2>JavaScript Keywords</h2>
+<p>JavaScript statements often start with a <strong>keyword</strong> 
+to identify the JavaScript action to be performed.</p>
+<p>Our <a href="js_reserved.asp">Reserved Words Reference</a> lists all JavaScript keywords.</p>
+<p>Here is a list of some of the keywords you will learn about in 
+this tutorial: </p>
+<table class="ws-table-all" style="width: 100%">
+<tr>
+ <th style="height: 25px">Keyword</th>
+ <th style="height: 25px">Description</th>
+</tr>
+
+<tr>
+<td class="notranslate">var</td>
+<td>Declares a variable</td>
+</tr>
+<tr>
+<td class="notranslate">let</td>
+<td>Declares a block variable</td>
+</tr>
+<tr>
+<td class="notranslate">const</td>
+<td>Declares a block constant</td>
+</tr>
+<tr>
+<td class="notranslate">if</td>
+<td>Marks a block of statements to be executed on a condition</td>
+</tr>
+<tr>
+<td class="notranslate">switch</td>
+<td>Marks a block of statements to be executed in different cases</td>
+</tr>
+<tr>
+<td class="notranslate">for</td>
+<td>Marks a block of statements to be executed in a loop</td>
+</tr>
+<tr>
+<td class="notranslate">function</td>
+<td>Declares a function</td>
+</tr>
+<tr>
+<td class="notranslate">return</td>
+<td>Exits a function</td>
+</tr>
+<tr>
+<td class="notranslate">try</td>
+<td>Implements error handling to a block of statements</td>
+</tr>
+</table>
+
+<div class="vasu-panel vasu-note">
+<p>JavaScript keywords are reserved words. Reserved words cannot be used as names for variables.</p>
+</div>
+
+<br>
+<div class="vasu-clear nextprev">
+  <a class="vasu-left vasu-btn" href="js_output.asp">&#10094; Previous</a>
+  <a class="vasu-right vasu-btn" href="js_syntax.asp">Next &#10095;</a>
+</div>
+<div id="mypagediv2" style="position:relative;text-align:center;"></div>
+<br>
+
+</div>
+<div class="vasu-col l2 m12" id="right">
+
+<div class="sidesection">
+  <div id="skyscraper">
+  
+    <!--<pre>wide_skyscraper, all: [160,600][300,600][320,50][120,600][300,1050]</pre>-->
+    <div id="snhb-wide_skyscraper-0"></div>
+    <!-- adspace wide-->
+  
+  </div>
+</div>
+
+
+
+    <div class="contact">
+     <!--Contact-->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="header-section text-center">
+          <h2>Contact Us</h2>
+          <p>For more information Contact Us</p>
+          <hr class="bottom-line">
+        </div>
+        <div id="sendmessage">Your message has been sent. Thank you!</div>
+        <div id="errormessage"></div>
+        <form action="" method="post" role="form" class="contactForm">
+          <div class="col-md-6 col-sm-6 col-xs-12 left">
+            <div class="form-group">
+              <input type="text" name="name" class="form-control form" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <div class="validation"></div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-sm-6 col-xs-12 right">
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+              <div class="validation"></div>
+            </div>
+          </div>
+
+          <div class="col-xs-12">
+            <!-- Button -->
+            <button type="submit" id="submit" name="submit" class="form contact-form-button light-form-button oswald light">SEND EMAIL</button>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </section>
+  <!--/ Contact-->
+  <!--Footer-->
+  <footer id="footer" class="footer">
+    <div class="container text-center">
+
+      <h3> <a href="Lesson.html">Start Your Free Trial Now!</a> </h3>
+
+      <form class="mc-trial row">
+        <div class="form-group col-md-3 col-md-offset-2 col-sm-4">
+          <div class=" controls">
+            <input name="name" placeholder="Enter Your Name" class="form-control" type="text">
+          </div>
+        </div>
+        <!-- End email input -->
+        <div class="form-group col-md-3 col-sm-4">
+          <div class=" controls">
+            <input name="EMAIL" placeholder="Enter Your email" class="form-control" type="email">
+          </div>
+        </div>
+        <!-- End email input -->
+        <div class="col-md-2 col-sm-4">
+          <p>
+            <a href="Lesson.html">
+            <button name="submit" type="submit" class="btn btn-block btn-submit">
+            Submit <i class="fa fa-arrow-right"></i></button></a>
+          </p>
+        </div>
+      </form>
+      <!-- End newsletter-form -->
+      <ul class="social-links">
+        <li><a href="https://www.facebook.com/vasudev.jaiswal.9"><i class="fa fa-twitter fa-fw"></i></a></li>
+        <li><a href="https://www.facebook.com/vasudev.jaiswal.9"><i class="fa fa-facebook fa-fw"></i></a></li>
+        <li><a href="vasujaiswal00@gmail.com"><i class="fa fa-google-plus fa-fw"></i></a></li>
+        
+        <li><a href="https://in.linkedin.com/in/vasudev-jaiswal-440b89192"><i class="fa fa-linkedin fa-fw"></i></a></li>
+      </ul>
+      ©2021 Theme Create by Vasudev Jaiswal . @All rights reserved
+      
+    </div>
+  </footer>
+</div>
+  <!--/ Footer-->
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="contactform/contactform.js"></script>
+</body>
+</html>
