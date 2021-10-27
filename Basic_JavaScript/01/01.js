@@ -178,3 +178,88 @@ console.log(5+20);
 
 */
 
+
+// Assignment operator 
+/*An assignment operator assigns a value to its left operand based on the value to its left operand
+based on the value of its right operand.
+The simple assignment operator  is equal (=)
+*/
+
+var x = 5;
+var y = 5;
+
+console.log(`is both  the x and y are equal : ${x == y}`);
+
+// -------------------------------------
+// Arithmetic Operators
+// --------------------------------------
+
+/* An arithmetic operator takes numerical values (either literals or variables ) as their operands and 
+retruns a  single numerical value .
+*/
+
+console.log(5+5);
+console.log(10-5);
+console.log(20/5);
+console.log(6*6);
+
+console.log("Remainder Operators "  + 27%4);
+// The reslut is - 3
+
+
+// Icreament and Drecreament Operator 
+// operator: x++ or ++x or x-- or --x 
+
+/* If use POSTFIX , with operator after operand (for example, x++ and x--) 
+the increment operator incxrements adn returns the value before increasing . */
+
+// [POSTFIX]
+var num = 15;
+var Newnum = num++ ;
+console.log(num);
+console.log(Newnum);
+// The result is - 16 before 15
+
+
+/* If use PREFIX, with opertor operand (for example ++x),
+the increment operator increment and returns the value after increasing */
+
+var NewNum = ++num;
+console.log(NewNum);
+// The result is - 17
+
+// --------------------------------
+/* Comparison Operator:-
+-----------------------------------
+A comparison operator compares its operand and returns a logical vlaue based on whether the commparsion 
+is true */
+
+var a = 30;
+var b = 10;
+
+// Equal (==) 
+console.log(a==b);
+// The result is - false 
+
+
+// Not Equal (a ! = b)
+console.log(a != b );
+// The result is - true 
+
+// Greater than (>)
+console.log(a > b );
+// The result is - True 
+
+// Less than (<)
+console.log(a<b);
+// The result is - false
+
+// Less than or equal (=<)
+console.log(a<=b);
+// The result is false 
+
+
+// -----------------------------------
+// Logical Operators 
+// -----------------------------------
+
