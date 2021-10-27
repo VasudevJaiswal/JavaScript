@@ -327,7 +327,8 @@ console.log(3**3);
 
 
 // __________________________________________________________________________
-// Conditional (ternary) Operator 
+// [2.] Conditional (ternary) Operator 
+// __________________________________________________________________________
 /* The conditional operator is the only javascript operator that takes three operands */
 
 // variable  = (condition)? value1:value2
@@ -339,3 +340,22 @@ if(Age>18){
 }else{
     console.log("Not Eleigible")
 }
+
+// Useing Ternary operator 
+
+var age = 19;
+console.log((age=>18)? "you can vote":"You can't vote");
+// Result is - You can vote 
+
+
+// __________________________________________________________
+// [3.] switch Statements 
+// __________________________________________________________
+// Evaluates an expressionn , matching the expression's value to a case clause , and executes statements associated
+// with that case .
+
+// 1st without break Statement
+
+
+// Find the Area  of circle , triangle and rectangle 
+
