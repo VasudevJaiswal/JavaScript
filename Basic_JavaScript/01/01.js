@@ -262,4 +262,65 @@ console.log(a<=b);
 // -----------------------------------
 // Logical Operators 
 // -----------------------------------
+/* Logical operators are typically usesd with Boolean (logical) values;
+when they are , they return a Boolean value. 
+*/
 
+var a = 30;
+var b = -20;
+
+
+// Logical AND (&&)
+/* The Logical AND (&&) operator (Logical conjunction) for a set of operands is true if and only if all 
+of its operands are true.*/
+console.log( a > b && b>0 );
+// The result is - false 
+
+// console.log(a>b && b>0 && b<0);
+// The result is - false 
+
+
+//Logical OR (||)
+/* The logical OR operator (Logical disjuction) for a set of operands is true if 
+and only if one or more of its operands is true . */
+console.log((a<0) || (a>0));
+// the result is true 
+
+
+// Logical NOT (!)
+/* The logical NOT (!) operator (logical complement , negation) takes truth 
+to falsity and vice versa. */
+
+console.log(!(a>0) || (b<0));
+// The result is - true 
+
+
+// /---------------------------------------------
+//                String Operators 
+// ----------------------------------------------
+/* The concatenation operator (+) concateneates two string values together , returning 
+another string that is the union of the two operand strings . */
+
+
+console.log("Hello world");
+
+console.log("hello" + "world" );
+// The result is helloworld 
+
+var myFirstName = "Vasudev";
+console.log(myFirstName + " Jaiswal")
+// The result is - Vasudev Jaiswal 
+
+// ------------------------------------------------------------------------
+// Challenge time 
+// -------------------------------------------------------------------------
+
+// Qusi 1. What will be the output 3**3 ? 
+// sol 1:
+// **[Expoenential Operator] - power 
+
+console.log(3**2);
+// The result is - 9 
+
+console.log(3**3);
+// the result is - 27 
