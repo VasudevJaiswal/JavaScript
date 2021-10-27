@@ -359,3 +359,6 @@ console.log((age=>18)? "you can vote":"You can't vote");
 
 // Find the Area  of circle , triangle and rectangle 
 
+var area = "square";
+var PI = 3.142, l=5, b=4,  r=3;
+
