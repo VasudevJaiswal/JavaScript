@@ -359,6 +359,16 @@ console.log((age=>18)? "you can vote":"You can't vote");
 
 // Find the Area  of circle , triangle and rectangle 
 
-var area = "square";
+var area = "triangle";
 var PI = 3.142, l=5, b=4,  r=3;
 
+switch(area){
+case 'circle':
+    console.log("the area of the circle is :"+ PI*r**2);
+
+case 'triangle':
+    console.log("The area of triangle is " + (l*b)/2);
+
+case 'rectangle':
+    console.log("The area of rectangle is "+ (l*b));
+}
