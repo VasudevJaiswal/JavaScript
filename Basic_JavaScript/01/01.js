@@ -324,3 +324,18 @@ console.log(3**2);
 
 console.log(3**3);
 // the result is - 27 
+
+
+// __________________________________________________________________________
+// Conditional (ternary) Operator 
+/* The conditional operator is the only javascript operator that takes three operands */
+
+// variable  = (condition)? value1:value2
+
+var Age = 19
+if(Age>18){
+    console.log("You are eligble for vote")
+
+}else{
+    console.log("Not Eleigible")
+}
