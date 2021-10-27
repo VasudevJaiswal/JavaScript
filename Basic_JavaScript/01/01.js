@@ -56,7 +56,7 @@ console.log(10+"20");
 
 // Number-String 
 console.log(26-"5");   
-// Result is - 21 or This is a bug of JavaScript
+// Result is - 21 or This is a - First  bug of JavaScript
 
 // Empty_Space+Empty_Space=InString
 console.log(" "+" ");
@@ -69,7 +69,7 @@ console.log(" "+0);
 
 // String - String 
 console.log("Vasudev"-"Jaiswal");
-// Result is NaN means Not a Number 
+// Result is NaN means -  Not a Number 
 
 // Not a Number use different 
 var myPhoneNumber = 12345676890;
@@ -79,6 +79,10 @@ console.log(isNaN(myPhoneNumber));
 var myName = "Vasudev"
 console.log(isNaN(myName)) 
 // Result is true becasue this is not a number it is a string 
+
+
+// --------------------------------------------------------------------------------------------------------------
+
 
 // Boolean +Boolean = Ture+True
 console.log(true+true);
@@ -96,13 +100,81 @@ console.log(false-false);
 // true - false = 1
 console.log(true-false);
 
-// Null  - What is null 
+// _____________________________________________________________________________________________________________
+// Interview questions 1 and 2. 
+// _____________________________________________________________________________________________________________
+
+
+//Quis 1. Null  - What is null 
+
 var IamUseless = null;
 console.log(IamUseless);
 console.log(typeof(IamUseless))
-// data types : object 
+// data types : object  - 2nd bug of javascript    
 // Result is null
 
 // Undefined Values 
-// var IamSmartBy;
-// console.log(IamSmartBy);
+var IamStandBy;
+console.log(IamStandBy);
+// The result is - undefined 
+
+
+// Quis 2. What is NaN 
+
+// NaN is a property of the global object 
+// In other words , it is a variable in global Scope 
+// The Initial value of NaN is Not-A-Number
+
+var myPhoneNumber = 987654321;
+var myName = "Vasudev Jaiswal"
+
+console.log(isNaN(myPhoneNumber));
+// result is - False becasuse of Number 
+
+console.log(isNaN(myName));
+// result is - True 
+
+if(isNaN(myName)){
+    console.log("Please Enter valid Number ");
+
+}
+// The result is - Please Enter valid Number 
+
+// -------------------------------
+// NaN practice 
+// -------------------------------
+
+NaN === NaN;
+Number.NaN === NaN;
+isNaN(NaN);
+isNaN(Number.NaN);
+Number.isNaN(NaN);
+
+console.log(isNaN(NaN));
+
+// The result is true 
+
+// ____________________________________________________
+// Section -3  EXPRESSIONS AND OPERATORS 
+// ____________________________________________________
+
+
+// Arithmetic Operators 
+// "5"[Operand] "+"[Operator] "20"[Operand]
+
+console.log(5+20);
+
+// What is Expressions ?
+// ''' Expressios the combinaton of operand and operators '''
+
+/* Types of Operator  :-
+
+1. Assignment Operators
+2. Arithmetic Operators 
+3. Comparison Operators
+5. Logical Operators
+6. String Operators 
+7. Conditional (ternary) Operators
+
+*/
+
