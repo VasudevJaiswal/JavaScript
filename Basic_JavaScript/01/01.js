@@ -486,5 +486,20 @@ sum();                        //Calling a function
 // The output is - 30 
 // 1. If you are not calling a fucnction then the output is - UNDEFINED 
 
+
+// [3.]  Function Parameter and Function Arguments :-
+// function paramenter are the names listed in the function's definition. 
+// function Arguments are the real values passed to the function 
+
+
 // task1. What is Difference between Fucntion paramenter vs function Arguments 
 
+
+// paramenter is - sum(a,b) :- Where a and b is paramenter 
+function sum1(a,b){
+    totalValue = a + b;
+    console.log("The sum of two value", totalValue);
+}
+
+sum1(10,30); // When you calling a function with sum1(a,b) then here is (10,30) - ## Fucntion Arguments 
+// The output is two value is - 40  
