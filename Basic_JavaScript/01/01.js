@@ -429,3 +429,20 @@ for(initializer; Condition; iteration)
 */
 // _____________________________________________________________________________
 
+for(var num = 1; num <=10; num++){
+    console.log(num);
+}
+
+// The result is - 1 - 10 
+
+
+// task.1  Javascript program print table for given number (8,9,12,15) using loop ?
+
+// 8th - Table  -  [8 * 1 = 8 ] to till [8*10 = 80 ]
+
+
+
+
+
+
+
