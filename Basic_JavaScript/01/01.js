@@ -456,18 +456,35 @@ for(var num = 1; num<=10; num++){
 // _____________________________________________________________________________________________________
 
 
-// Function Definition  :-
+// [5.1] Function Definition  :-
 /*  A Function defintion (also called a functionn declaration, or function statement ) consists of 
 the function keyword , followed by:-
 
 The name of Function .
 A list of parameters to the function, elclosed in parentheses and separated by commas,
 The JavaScript statements that define the function, enclosed in curly brackets {...........}.
+
+function functionName()
+{
+    //statement
+}
 */
 
 
 // ________________________________________
-// Calling a Function 
+// [5.2] Calling a Function 
 // ________________________________________
 
+//Making a Fucntion
+function sum(){ 
+    var a = 10;
+    var b = 20;
+    console.log("the sum of a and b is ", a+b);
+}
+
+sum();                        //Calling a function 
+// The output is - 30 
+// 1. If you are not calling a fucnction then the output is - UNDEFINED 
+
+// task1. What is Difference between Fucntion paramenter vs function Arguments 
 
