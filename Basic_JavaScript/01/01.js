@@ -440,9 +440,34 @@ for(var num = 1; num <=10; num++){
 
 // 8th - Table  -  [8 * 1 = 8 ] to till [8*10 = 80 ]
 
+for(var num =1; num<=10; num++){
+    var tableOf = 8;
+    console.log( tableOf + " * " + num  + " = " + tableOf * num);
+}
+
+for(var num = 1; num<=10; num++){
+    var tableOf = 10;
+    console.log(tableOf + " * " + num + " = " + tableOf*num);
+}
 
 
+// _____________________________________________________________________________________________________
+// Section 5      Function in JavaScript 
+// _____________________________________________________________________________________________________
 
 
+// Function Definition  :-
+/*  A Function defintion (also called a functionn declaration, or function statement ) consists of 
+the function keyword , followed by:-
+
+The name of Function .
+A list of parameters to the function, elclosed in parentheses and separated by commas,
+The JavaScript statements that define the function, enclosed in curly brackets {...........}.
+*/
+
+
+// ________________________________________
+// Calling a Function 
+// ________________________________________
 
 
