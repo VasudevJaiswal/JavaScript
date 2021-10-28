@@ -359,16 +359,73 @@ console.log((age=>18)? "you can vote":"You can't vote");
 
 // Find the Area  of circle , triangle and rectangle 
 
-var area = "triangle";
+var area = "triangle"; 
+// Change area and result is diffrence every change 
 var PI = 3.142, l=5, b=4,  r=3;
 
 switch(area){
 case 'circle':
     console.log("the area of the circle is :"+ PI*r**2);
+    break;
 
 case 'triangle':
     console.log("The area of triangle is " + (l*b)/2);
+    break;
 
 case 'rectangle':
     console.log("The area of rectangle is "+ (l*b));
+    break;
+default:
+    console.log("Please Enter a valid Dat")
 }
+
+
+// Break statements 
+/* Terminates the current loop,switch , or label statements and transfers program control
+to statement following the terminated statement. */
+
+// _______________________________________________________
+
+// While Loop Statement 
+/* The While statement creates a loop that executes a specified statement as long as the test condition
+valuates to ture */
+// ________________________________________________________
+
+var num = 1;
+while(num<=10){
+    console.log(num);
+    num++;
+}
+
+// 1. If you don't use any increment that Loop called Infinte loop 
+// 2. The result is - 0-10 
+// 3. if num = 20;  then result is nothing in that senerio[quis] - then it's called ## Block Scope
+
+
+// __________________________________
+// DO While Loop 
+// __________________________________
+
+var num = 1;
+
+do{
+    console.log(num);
+    num++;
+
+}while(num<=10);
+// The output is - 1-10
+// 1. If we put var num =20; then result is terminate  
+
+
+
+
+// _____________________________________________________________________________
+// For Loop
+/*
+for(initializer; Condition; iteration)
+{
+    //code to be executed ;
+}
+*/
+// _____________________________________________________________________________
+
