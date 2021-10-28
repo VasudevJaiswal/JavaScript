@@ -503,3 +503,30 @@ function sum1(a,b){
 
 sum1(10,30); // When you calling a function with sum1(a,b) then here is (10,30) - ## Fucntion Arguments 
 // The output is two value is - 40  
+
+
+// Interview Quistion 
+
+// Q . Why Function  ? :-
+
+/* You can reuse code: Define the code once, and use it mnay times . 
+You can use the same code many times with different Arguments ,
+to produce different results. 
+
+                                     OR , 
+A function is a group of reusable code which can be called anywhere in your program. This eliminates the
+the need of writing the same code again and again.
+*/
+
+// ________________________________________________________
+// [4.] Function Expressions :- 
+// Function expression simply means Create a function and put it into the variable 
+// ________________________________________________________
+
+function sum2(a,b){
+    var totalValue = a+b;
+    console.log(totalValue);
+}
+
+var funExp = sum2(15,10);
+funExp;
