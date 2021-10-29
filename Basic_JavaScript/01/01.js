@@ -530,3 +530,6 @@ function sum2(a,b){
 
 var funExp = sum2(15,10);
 funExp;
+
+
+// 5. Return Keyword
