@@ -528,8 +528,24 @@ function sum2(a,b){
     console.log(totalValue);
 }
 
-var funExp = sum2(15,10);
+var funExp1 = sum2(15,10);
 funExp;
 
-
+// ____________________________________
 // 5. Return Keyword
+// ____________________________________
+/*When JavaScript reaches a return statement, the functionn will stop executing.
+
+*** Function often compute a return value.
+The return value is "returned" back to the "caller"
+
+*/
+
+function sum3(a,b){
+    // var total = a+b;    //don't need to code this line 
+    // console.log(total);   // don't need to code this line
+    return total = a+b;
+}
+var funExp = sum3(5,25)
+console.log("The sum of two no is"+ funExp)
+// The result is -30 
