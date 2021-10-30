@@ -107,15 +107,30 @@ function sum(){
 
 //Use of fat arrow function
 
-const sum1 = () =>{
-    let a = 5; b =6;
-    let sum1 = a+b;
-    return `The sum of the two number is ${sum1}`;
-}
-
-console.log(sum());
+const sum1 = () => `The sum of the two number is ${(a=5)+ (b=12)}`;
+console.log(sum1());
 //this called fat Arrow function - [ =>]
-//The output is-  the sum of the two number is  11 
+//The output is-  the sum of the two number is  17 
    
+
+// ____________________________________________________________
+
+// Section - ARRAYS IN JAVASCRIPT 
    
-   
+// ____________________________________________________________
+
+/* When we feel like storing multiple values in one variables then instead of var, we
+will use an Array. In javaScript , we have an Array Class , and arrays are the prototype of this class.
+*/
+
+
+//example:-
+
+//When we use var var,We can Stored only one value at a time . 
+var friend1 = 'Aaditya';
+var friend2 = 'Hanuman';
+var friend3 = 'Ridhi';
+
+//Using a Array Class :-
+
+var myFriends = ['Aaditya', 'Hanuman', 'Ridhi'];
