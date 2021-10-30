@@ -56,4 +56,20 @@ biodata();
 // JavaScript program to print table for given Number (8)? 
 // Output  :   8*1 = 8 -   8*10 = 80 
 
+for(let num = 1; num<=10; num++){
+    let tablOf = 8;
+    console.log(`${tableOf} * ${num} = ${tablOf * num}`);
+}
 
+
+// _______________________________________________________________
+                    // Default Parameters :-
+// Default Function parameters allow named parameters to be initialized with default values if no value or undefined is passed . 
+
+// _______________________________________________________________
+
+function mult(a,b){
+return a*b;
+}
+
+console.log(mult(5,2));
