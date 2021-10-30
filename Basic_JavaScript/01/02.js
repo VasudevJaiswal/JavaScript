@@ -38,7 +38,7 @@ function biodata(){
         console.log('inner'+ myFirstName);
 
     }
-    console.log('innerOuter'+ myLastName); //If we use LeT then result is - innerouterJaiswal
+    // console.log('innerOuter'+ myLastName); //If we use LeT then result is - innerouterJaiswal
     // console.log('innerOuter'+  myFirstName);      // Because [Block scope ] of var the output is error  
 }
 
@@ -58,7 +58,7 @@ biodata();
 
 for(let num = 1; num<=10; num++){
     let tablOf = 8;
-    console.log(`${tableOf} * ${num} = ${tablOf * num}`);
+    // console.log(`${tableOf} * ${num} = ${tablOf * num}`);
 }
 
 
@@ -73,3 +73,49 @@ return a*b;
 }
 
 console.log(mult(5,2));
+// The output is - 10
+
+                // OR , 
+
+console.log(mult(5))  //If we return only A or B parameters 
+//Result is - NaN
+
+                //   OR , 
+
+function mult(a,b=2){
+    return a*b;
+}
+console.log(mult(5))
+// Now the Output is - 10   // this is called DEFAULT PARAMETERS 
+
+
+
+// ____________________________________________________________
+                    // 6. Fat ArrowFunction 
+// ____________________________________________________________
+
+//Normal way of writing Function
+
+console.log(sum());
+
+function sum(){
+    let a = 5; b= 6;
+    let sum = a+b;
+    return `The sum of the two number is ${sum}`;
+}
+
+
+//Use of fat arrow function
+
+const sum1 = () =>{
+    let a = 5; b =6;
+    let sum1 = a+b;
+    return `The sum of the two number is ${sum1}`;
+}
+
+console.log(sum());
+//this called fat Arrow function - [ =>]
+//The output is-  the sum of the two number is  11 
+   
+   
+   
