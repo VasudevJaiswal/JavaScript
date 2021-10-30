@@ -132,5 +132,36 @@ var friend2 = 'Hanuman';
 var friend3 = 'Ridhi';
 
 //Using a Array Class :-
+// var myFriends = new Array;  //This line not mandatory its optional 
+var myFriends = ['Aaditya',22, 'Hanuman', 20,'Ridhi',21, true, false ];
 
-var myFriends = ['Aaditya', 'Hanuman', 'Ridhi'];
+/* 
+     var Names  = [Aaditya,Hanuman,Ridhi];
+     1st Element - [Aaditya] = Lower Index/ Lower boundry   - Represent or indexing by = 0
+     last Element - [Ridhi] = Upper Index / Upper boundry   - Represent or indexing by = 2 - [Array length '-' 1 ]
+
+*/
+
+
+//                          What will do in this Array section 
+/* Traversal of an Array 
+   Searching and filter in an Array 
+   How to sort and Compare an Aray
+   How to Insert,Add,Replace and Delete Elements in  Array(CRUD)
+   Map(), Reduce(), filter()
+*/
+
+
+// ________________________________________________________________
+            // Traversal of An Array :- Traversal in array navigate through an array 
+// ________________________________________________________________
+
+/* 
+If we want to get the single date at a time and also 
+If we want to change the data 
+*/
+
+// if we want to check the length,  of the data 
+
+var myFriends1 = ['vinod', 'Aadity', 'Hanuman','Ridhi'];
+console.log(myFriends1[1]);  //Output is - Aadity
