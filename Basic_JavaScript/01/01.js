@@ -550,3 +550,6 @@ function sum3(a,b){
 var funExp = sum3(5,25)
 console.log("The sum of two no is"+ funExp)
 // The result is -30 
+
+
+
