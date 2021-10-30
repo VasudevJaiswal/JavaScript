@@ -161,7 +161,63 @@ If we want to get the single date at a time and also
 If we want to change the data 
 */
 
-// if we want to check the length,  of the data 
 
 var myFriends1 = ['vinod', 'Aadity', 'Hanuman','Ridhi'];
 console.log(myFriends1[1]);  //Output is - Aadity
+
+// if we want to check the length,  of the data or Array
+console.log(myFriends1.length); //Total elemnet of the data or Arrya // The output is - 4 
+// Length start with [1-infinite] not 0 
+
+
+//We use  for Loop to navigate 
+
+var myFriends2 = ['Aaditya', 'Hanuman', 'Ridhi'];
+
+for(var i=0; i<myFriends2.length; i++){
+    console.log(myFriends2[i]);
+}
+
+// The output is - Aaditya , Hanuman , Ridhi 
+
+// After ES6 we have for .. in and for .. of loop too 
+
+var myFriends3 = ['Aaditya', 'Hanuman', 'Ridhi'];
+
+for(let elemnets in myFriends3){
+    console.log(elemnets)
+}
+// The Output is - 0,1,2,3 
+
+for(let elemnets of myFriends3){
+    console.log(elemnets);
+}
+
+//The output is - Aaditya , Hanuman , Ridhi 
+
+
+// Array.prototype.forEach()
+// Calls  a Fucntion for each elements in the array
+
+var myFriends4 = ['Aaditya', 'Hanuman', 'Ridhi'];
+
+myFriends4.forEach(function(elements,index,array){
+    console.log(elements);
+});
+
+// Same Output  
+
+
+// _____________________________________________________________________________
+//                   [2.] Searching and Filter in an Array 
+// _____________________________________________________________________________
+
+/* 
+Array.prototyp.indexOf()
+Returns the first (least) index of an element within the array equal to an element , or -1 
+if none is found . It search the element from the 0th index number 
+
+*/
+
+var myFriends4 = ['Vasudev','Aaditya', 'Hanuman', 'Ridhi'];
+
