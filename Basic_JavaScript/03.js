@@ -11,4 +11,22 @@ console.log(plants.shift());    // The result is - Tomato ["Removing all the ele
 
 
 
+// __________________________________________________________________________________
+// Challenging Time 
+// __________________________________________________________________________________
 
+const months = ['Jan','March','April','June','July'];
+
+// 1. Add DEc at the end of an Array ?
+// Sol 1. 
+
+const newMonths = months.splice(4,0,Dec);
+
+
+// 2. What is return value of  splice method ?
+
+
+// 3. Update march to March (Update)?
+
+
+// 4. Delete June for From an Array ? 

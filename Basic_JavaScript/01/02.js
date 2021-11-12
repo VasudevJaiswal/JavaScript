@@ -220,4 +220,3 @@ if none is found . It search the element from the 0th index number
 */
 
 var myFriends4 = ['Vasudev','Aaditya', 'Hanuman', 'Ridhi'];
-
